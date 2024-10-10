@@ -27,7 +27,9 @@ function onCalcBtnClickedF() {
  
 function initC() {
    const calcBtnC = document.getElementById("calcBtnC")
+   if (calcBtnC) {
    calcBtnC.onclick = onCalcBtnClickedC;
+   }
 }
 
 function onCalcBtnClickedC() {
@@ -47,8 +49,13 @@ function initReset() {
 }
 
 function onClickResetBtn() {
-   document.getElementById("degreeC").value=``;
-   document.getElementById("convertedNumC").value=``;
-   document.getElementById("degreeF").value=``;
-   document.getElementById("convertedNumF").value=``;
+   const degreeC = document.getElementById("degreeC")
+   const convertedNumC = document.getElementById("convertedNumC")
+   const degreeF = document.getElementById("degreeF")
+   const convertedNumF = document.getElementById("convertedNumF")
+
+   if (degreeF) degreeF.value = '';
+   if (convertedNumF) convertedNumF.value = '';
+   if (degreeC) degreeC.value = '';
+   if (convertedNumC) convertedNumC.value = '';
 }
