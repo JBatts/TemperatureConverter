@@ -9,14 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/main.css">
 </head>
-
+<body>
 <header>
     <h1>Convert Fahrenheit to Celsius</h1>
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
             aria-expanded="false">
-            Looking for Something?
+            Looking for Something? Here!
         </button>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="index.html">Homepage</a></li>
@@ -28,15 +29,23 @@
 </header>
 
 
-<body>
-    
-    Insert Temperature in Fahrenheit Here: <input type="text" id="degreeF" value="0">
-    <input type="button" value="Calculate Now!" id="calcBtnF">
-    Temperature in Celsius: <input type="number" id="convertedNumF" readonly value="-18">
 
+    <div class="degree">
+        <div class="degreeText">
+    Insert Temperature in Fahrenheit Here: <input type="text" id="degreeF" value="0">
+    </div>
+    <br>
+    <div class="degreeText">
+    <input type="button" value="Calculate Now!" id="calcBtnF">
+    </div>
+    <br>
+    Temperature in Celsius: <input type="number" id="convertedNumF" readonly value="-18">
+</div>
 </body>
 <footer>
-    <input type="button" value="Need to Reset the Page?" id="resetBtn">
+    <div class="btnReset">
+    <input type="button" value="Need to Reset the Page?" id="resetBtn" >
+    </div>
 </footer>
 <script src="../scripts/calc.js"></script>
 </html>

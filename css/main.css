@@ -1,0 +1,23 @@
+body {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://gifdb.com/images/high/black-background-black-waves-d8fbav58488h6bog.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 1.9rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.show {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.degree {
+    background-color: rgb(43, 43, 43);
+    margin: 3rem 1rem;
+    padding: 3rem 1rem 3rem 1rem;
+    border-radius: 5rem;
+}
+

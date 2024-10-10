@@ -54,8 +54,8 @@ function onClickResetBtn() {
    const degreeF = document.getElementById("degreeF")
    const convertedNumF = document.getElementById("convertedNumF")
 
-   if (degreeF) degreeF.value = '';
-   if (convertedNumF) convertedNumF.value = '';
-   if (degreeC) degreeC.value = '';
-   if (convertedNumC) convertedNumC.value = '';
+   if (degreeF) degreeF.value = '0';
+   if (convertedNumF) convertedNumF.value = '-18';
+   if (degreeC) degreeC.value = '0';
+   if (convertedNumC) convertedNumC.value = '32';
 }
